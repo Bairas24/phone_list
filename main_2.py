@@ -12,7 +12,6 @@ def chislo(a: int):
     if a % 2 == 0:
         return True
     else:
-        return False
 '============================ databse.py'
 a = 15
 b = 15
