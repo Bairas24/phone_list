@@ -1,8 +1,9 @@
-def add_contact(phone_list: list, name: str, phone: str, favorite: bool) -> list:
+def add_contact(phone_list: list, name: str, phone: str, favorite: bool, email: str) -> list:
     contact = {
         "name": name,
         "phone": phone,
         "favorite": favorite,
+        "email": email
     }
 
     phone_list.append(contact)
