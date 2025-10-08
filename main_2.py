@@ -8,10 +8,6 @@ def div(a: int, b: int):
 def x_plus_2(x: int):
     return x + 2
 
-def chislo(a: int):
-    if a % 2 == 0:
-        return True
-    else:
 '============================ databse.py'
 a = 15
 b = 15
