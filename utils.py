@@ -24,7 +24,7 @@ def add_contact(phone_list: list, name: str, phone: str, favorite: bool) -> list
 
 def search_contact(phone_list: list, search: str) -> dict | None:
     for contact in phone_list:
-        if search == contact['name'] or search == contact['phone']:
+        if search == contact['name']:
             return contact
     return None
 
