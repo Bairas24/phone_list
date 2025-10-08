@@ -35,7 +35,7 @@ while True:
 
         phone_list = add_contact(phone_list, name, phone, favorite)
     elif command == "3":
-        search_name = input("Введите имя контакта или номер телефона: ")
+        search_name = input("Введите имя контакта: ")
         searched_contact = search_contact(phone_list, search_name)
 
         if searched_contact:
@@ -44,7 +44,7 @@ while True:
             print('Контакт не найден')
 
     elif command == "4":
-        search_name = input("Введите имя контакта или номер телефона: ")
+        search_name = input("Введите имя контакта: ")
         phone_list = remove_contact(phone_list, search_name)
     elif command == "0":
         break
